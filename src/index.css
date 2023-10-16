@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,300&display=swap');
+@import "rsuite/dist/rsuite.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.dashboard {
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.create-ads {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*------Home-----*/
+.home-container {
+  height: 160vh;
+  width: 90%;
+  margin: 2rem auto;
+  border: 1px solid #c1bfbf;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.headline {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home-left,
+.home-right {
+  width: 100%;
+  /* Full width on mobile devices */
+  margin-bottom: 1rem;
+}
+
+.suite-table {
+  margin-top: 3rem;
+}
+
+.per-rate {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+
+  .home-left,
+  .home-right {
+    width: 48%;
+    /* 48% width on tablets and larger devices */
+  }
+
+  .home-container {
+    height: 80vh;
+  }
+
+
+}
+
+.home-left {
+  margin-right: 0;
+  /* No margin on mobile devices */
+}
+
+.home-left div {
+  margin-bottom: 30px;
+}
+
+.heading1,
+.heading2,
+.business,
+.button {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: -4px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1cbcb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 15px;
+  color: #c3bfbf;
+}
+
+select {
+  color: #c1bfbf;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.btn-container {
+  margin-top: 10px;
+  float: right;
+}
+
+button {
+  padding: 6px 30px;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.back {
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid #c1bfbf;
+}
+
+.submit {
+  background-color: #2ab4eb;
+  border: none;
+  color: #fff;
+}
+
+.media {
+  height: 90vh;
+  width: 90%;
+  margin: 3rem auto;
+  border: 1px solid #c1bfbf;
+  padding: 10px;
+}
+
+.media-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  margin-right: 20px;
+}
+
+.heading2 {
+  margin-top: 8px;
+}
+
+.top,
+.right {
+  width: 50%;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.business,
+.button {
+  flex-basis: 50%;
+}
+
+.business {
+  margin-right: 10px;
+}
+
+.text-media {
+  width: 90%;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 5rem;
+  margin-right: 50px;
+
+}
+
+
+.text-header {
+  text-align: center;
+}
+
+.button-container {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+}
+
+.next-btn {
+  border: none;
+  background-color: #21a5d9;
+  color: #fff;
+}
+
+.text-info {
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.media-img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #d1cccc;
+}
+
+tr,
+th,
+td {
+  border-bottom: 1px solid #d1cccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.dashboard1 {
+  margin-left: 2rem;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+th {
+  font-weight: 500;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 7px;
+  font-size: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.dashboard-right {
+  margin-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+  .media-container {
+    flex-direction: column;
+  }
+
+  .top,
+  .right {
+    width: 100%;
+  }
+
+  .middle {
+    flex-direction: column;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+}
